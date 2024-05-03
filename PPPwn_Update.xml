@@ -1,0 +1,69 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PPPwn_Update
+</name>
+</assembly>
+<members>
+<member name="T:PPPwn_Update.My.Resources.Resources">
+<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member>
+<member name="P:PPPwn_Update.My.Resources.Resources.ResourceManager">
+<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member>
+<member name="P:PPPwn_Update.My.Resources.Resources.Culture">
+<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member>
+<member name="P:PPPwn_Update.My.Resources.Resources.Darkmode_Adboy">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PPPwn_Update.My.Resources.Resources.Linux">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Icon ähnlich wie (Symbol).
+</summary>
+</member>
+<member name="P:PPPwn_Update.My.Resources.Resources.Setup">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Icon ähnlich wie (Symbol).
+</summary>
+</member>
+<member name="M:PPPwn_Update.TransparentListView.#ctor">
+ <summary>
+ Creates a new TransparentListView object.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:PPPwn_Update.TransparentListView.ErrorTextColor">
+ <summary>
+ The color to use when a certain ListViewItem has unresolved issues.
+ </summary>
+</member>
+<member name="P:PPPwn_Update.TransparentListView.HighlightColor">
+ <summary>
+ The color to use when highlighting an item.
+ </summary>
+</member>
+<member name="P:PPPwn_Update.TransparentListView.RedrawInterval">
+ <summary>
+ The intervals at which to redraw the control when scrolling. Higher values are reccomended for less powerful CPUs.
+ Decrease this value if experiencing choppy redraws during scrolling. Values below 5-6ms may result in extreme CPU use.
+ </summary>
+</member>
+<member name="P:PPPwn_Update.TransparentListView.RedrawOnMouseMove">
+ <summary>
+ True if the control should be redrawn when the mouse is moved, otherwise False.
+ </summary>
+ <remarks>There have been some issues with the Set method, so it's temporarily disabled and has no effect.</remarks>
+</member>
+</members>
+</doc>
